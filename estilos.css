@@ -164,7 +164,18 @@ div h3 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-/*----------------------------nosotros----------------------------*/
+/*----------------------------ofertas----------------------------*/
+.fondoOfertas{
+	background-color: violet;
+}
+.aliEd{
+display:flex;
+justify-content: space-evenly;
+	
+	
+}
+	
+/*----------------------------nosotros----------------------------*ss/
 .nosotros {
   background-color: blueviolet;
   display: flex;
