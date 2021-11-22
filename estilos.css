@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------header----------------------------*/
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(cyan, black, blue);
+  flex-wrap: nowrap;
+}
+nav {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+ul {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  display: flex;
+  flex: content;
+  flex-wrap: wrap;
+  width: 25%;
+  position: relative;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: aqua;
+  text-shadow: 0px 0px 10px #fff;
+}
+
+li a:hover {
+  color: deeppink;
+}
+
+.desc {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+/*----------------------------main----------------------------*/
+/*----------------------------sections----------------------------*/
+.colorBanner {
+  color: blue;
+  background-color: white;
+}
+.sectionGame {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(images/fifa22total.jpg);
+  flex-wrap: wrap;
+}
+.tranScale {
+  margin: 5%;
+  width: 25%;
+  height: auto;
+}
+
+.tranScale:hover {
+  transform: scale(1.4, 1.3);
+}
+.trailerFifa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.sectionFar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(images/bannerFarCry.jpg);
+  flex-wrap: wrap;
+}
+.trailerFar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sectionBattle {
+  background-image: url(images/bannerBattle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sectionFuno {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(images/f1-2021-hero-banner-desktop-01-p.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+/*----------------------------novedades----------------------------*/
+
+.news {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: black;
+  background: linear-gradient(blue, violet);
+}
+.titulos {
+  font-size: 50px;
+  background-color: blueviolet;
+  background: linear-gradient(blue, violet);
+}
+.descGame {
+  color: white;
+  background-color: blue;
+  font-style: oblique;
+  font-size: larger;
+}
+/*----------------------------productos----------------------------*/
+.juegosProductos {
+  text-align: center;
+  text-decoration: underline;
+}
+.primerLinea {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  margin-top: 5%;
+}
+.fondoProductos {
+  background-color: blueviolet;
+}
+.imgJuegos {
+  display: flex;
+
+  width: 60%;
+  height: 80%;
+  border: 5px solid blue;
+  border-radius: 5px;
+}
+
+div h3 {
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*----------------------------nosotros----------------------------*/
+.nosotros {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-evenly;
+}
+/*----------------------------footer----------------------------*/
+.listaTipo {
+  background-color: black;
+}
+
+h2 {
+  color: darkblue;
+}
+
+h4 {
+  color: rgb(39, 4, 71);
+}
+h5 {
+  color: rgb(39, 4, 71);
+}
+.colorLetra {
+  color: black;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+.fondoText {
+  background-color: white;
+}
+
+.fondoForm {
+  color: white;
+  background-image: url(images/play.jpg);
+  background-repeat: repeat;
+  text-align: center;
+  font-size: 40px;
+}
