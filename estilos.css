@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(cyan, black, blue);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 nav {
   width: 50%;
@@ -24,7 +24,7 @@ ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  
   flex-wrap: wrap;
 }
 
