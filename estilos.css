@@ -8,23 +8,20 @@
 
 header {
   width: 100%;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(cyan, black, blue);
-  flex-wrap: wrap;
+  
 }
 nav {
   width: 50%;
-  
   margin: 20px;
 }
 ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-  
   flex-wrap: wrap;
 }
 
