@@ -11,7 +11,7 @@ header {
 	
   display: flex;
   justify-content: space-between;
-	align-content: center;
+	align-items: center;
   
   background: linear-gradient(cyan, black, blue);
   
@@ -30,8 +30,9 @@ ul {
 li {
   
   display: flex;
+  flex: content;
   justify-content: space-around;
-  
+  align-items: center;
   position: relative;
   font-size: 20px;
 }
