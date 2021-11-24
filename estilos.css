@@ -31,7 +31,7 @@ li {
   
   display: flex;
   flex: content;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   font-size: 20px;
