@@ -24,6 +24,7 @@ ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
+	justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -173,7 +174,7 @@ div h3 {
 }
 /*----------------------------footer----------------------------*/
 .listaTipo {
-	flex:content;
+	
   background-color: black;
 }
 
