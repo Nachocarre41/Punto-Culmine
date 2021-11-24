@@ -30,7 +30,7 @@ ul {
 li {
   
   display: flex;
-  
+  justify-content: space-around;
   
   position: relative;
   font-size: 20px;
