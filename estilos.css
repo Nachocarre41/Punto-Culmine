@@ -28,7 +28,7 @@ ul {
 
 li {
   
-  
+  display: flex;
   
   
   position: relative;
