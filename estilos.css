@@ -28,9 +28,9 @@ ul {
 
 li {
   display: flex;
-  flex: content;
-  flex-wrap: wrap;
-  width: 25%;
+  
+  
+  
   position: relative;
   font-size: 20px;
 }
