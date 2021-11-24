@@ -8,31 +8,30 @@
 
 header {
   width: 100%;
-  height: auto;
+	
   display: flex;
   justify-content: space-between;
-  align-items: center;
+	align-content: center;
+  
   background: linear-gradient(cyan, black, blue);
-  flex-wrap: nowrap;
+  
 }
 nav {
   width: 50%;
-  height: auto;
   margin: 20px;
 }
 ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 li {
+  
   display: flex;
-  flex: content;
-  flex-wrap: wrap;
-  width: 25%;
+  justify-content: space-around;
+  
   position: relative;
   font-size: 20px;
 }
