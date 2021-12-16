@@ -8,13 +8,12 @@
 
 header {
   width: 100%;
-	
+
   display: flex;
   justify-content: space-between;
-	align-items: center;
-  
+  align-items: center;
+
   background: linear-gradient(cyan, black, blue);
-  
 }
 nav {
   width: 50%;
@@ -24,18 +23,18 @@ ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-	justify-content: space-around;
+  
   flex-wrap: wrap;
 }
 
 li {
-  
   display: flex;
   flex: content;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
   font-size: 20px;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 li a {
@@ -51,7 +50,7 @@ li a:hover {
 .desc {
   color: white;
   text-align: center;
-  font-style: italic;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 /*----------------------------main----------------------------*/
@@ -90,11 +89,6 @@ li a:hover {
   background-image: url(images/bannerFarCry.jpg);
   flex-wrap: wrap;
 }
-.trailerFar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
 .sectionBattle {
   background-image: url(images/bannerBattle.jpg);
@@ -114,108 +108,157 @@ li a:hover {
   flex-wrap: wrap;
 }
 
-/*----------------------------novedades----------------------------*/
 
-.news {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: underline;
-  color: black;
-  background: linear-gradient(blue, violet);
-}
-.titulos {
-  font-size: 50px;
-  background-color: blueviolet;
-  background: linear-gradient(blue, violet);
-}
-.descGame {
-  color: white;
-  background-color: blue;
-  font-style: oblique;
-  font-size: larger;
-}
 /*----------------------------productos----------------------------*/
 .juegosProductos {
+  font-size: 60px;
+  color: aqua;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: underline; 
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 .primerLinea {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-
   margin-top: 5%;
 }
-.fondoProductos {
-  background-color: blueviolet;
-}
-.imgJuegos {
+.prodLink{
+  font-size: 45px;
+  text-decoration: none;
+  color: deeppink;
   display: flex;
+  justify-content: space-around;
+  font-family: 'Fuzzy Bubbles', cursive;
 
+}
+.fondoProductos {
+  background-color: blue;
+}
+
+.imgJuegos{
   width: 60%;
   height: 80%;
-  border: 5px solid blue;
-  border-radius: 5px;
+  margin-left: 15%;
+  border: 5px solid deeppink;
+  border-radius: 10px;
+}
+.imgJuegosFour {
+  width: 60%;
+  height: 80%;
+  margin-left: 15%;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
 div h3 {
-  font-size: 35px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  font-family: 'Fuzzy Bubbles', cursive;
+  background-color: aliceblue;
+  width: 60%;
+  margin-left: 15%;
 }
+
 
 
 /*----------------------------nosotros----------------------------*/
-.nosotros {
-  background-color: blueviolet;
-  display: flex;
-  justify-content: space-evenly;
+.fondoNos{
+  background-color: blue;
+  height: 40rem;
 }
+.nosotros {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.mb-3{
+  margin: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 20px;
+  
+}
+.btn-success{
+  margin-left: 50%;
+}
+.nosIndex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  background-color: blue;
+}
+.sobreNos{
+  
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: overline;
+  margin-bottom: 10px;
+}
+.parrNos{
+  color: white;
+  font-size: 20px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-align: center;
+}
+
+
 /*----------------------------footer----------------------------*/
 .listaTipo {
-	
-  background-color: black;
+  margin: 0;
+  background: linear-gradient(cyan, black, blue);
+  display: flex;
+  justify-content: space-between;
 }
 
-h2 {
-  color: darkblue;
-}
-
-h4 {
-  color: rgb(39, 4, 71);
-}
-h5 {
-  color: rgb(39, 4, 71);
-}
-.colorLetra {
-  color: black;
-}
-
-.centrado {
-  text-align: center;
-}
-
-.mayus {
-  text-transform: uppercase;
-}
-
-.fondoText {
-  background-color: white;
-}
-
-.fondoForm {
-  color: white;
-  background-image: url(images/play.jpg);
-  background-repeat: repeat;
-  text-align: center;
-  font-size: 40px;
-}
-
-
-.ofertasF{
+/*----------------------------informacion----------------------------*/
+.ofertasF {
   width: 100%;
   height: 25rem;
-  background-color: blueviolet;
+  background-color: blue;
+}
+.gameJ{
+  margin: 20px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: aqua;
 
+}
+.accordion{
+  background-color: blue;
+}
+.titlH{
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-align: center;
+  color: white;
+  
+}
+.accordion-body{
+  background-color: blue;  
+  font-size: 20px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: white;
+}
+.accordion-button{
+  background-color: deeppink;
+font-size: 25px;
+}
+
+/*----------------------------contacto----------------------------*/
+.maCont{
+  background-color: blue;
+height: 50rem;
+  
+}
+
+.row{
+  
+
+  color: white;
+  
 }
