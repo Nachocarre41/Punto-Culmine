@@ -23,7 +23,7 @@ ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-  
+
   flex-wrap: wrap;
 }
 
@@ -34,7 +34,7 @@ li {
   align-items: center;
   position: relative;
   font-size: 20px;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 li a {
@@ -50,7 +50,7 @@ li a:hover {
 .desc {
   color: white;
   text-align: center;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 /*----------------------------main----------------------------*/
@@ -108,14 +108,13 @@ li a:hover {
   flex-wrap: wrap;
 }
 
-
 /*----------------------------productos----------------------------*/
 .juegosProductos {
   font-size: 60px;
   color: aqua;
   text-align: center;
-  text-decoration: underline; 
-  font-family: 'Fuzzy Bubbles', cursive;
+  text-decoration: underline;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 .primerLinea {
   display: flex;
@@ -123,20 +122,19 @@ li a:hover {
   flex-wrap: wrap;
   margin-top: 5%;
 }
-.prodLink{
+.prodLink {
   font-size: 45px;
   text-decoration: none;
   color: deeppink;
   display: flex;
   justify-content: space-around;
-  font-family: 'Fuzzy Bubbles', cursive;
-
+  font-family: "Fuzzy Bubbles", cursive;
 }
 .fondoProductos {
   background-color: blue;
 }
 
-.imgJuegos{
+.imgJuegos {
   width: 60%;
   height: 80%;
   margin-left: 15%;
@@ -152,17 +150,14 @@ li a:hover {
 }
 
 div h3 {
-
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   background-color: aliceblue;
   width: 60%;
   margin-left: 15%;
 }
 
-
-
 /*----------------------------nosotros----------------------------*/
-.fondoNos{
+.fondoNos {
   background-color: blue;
   height: 40rem;
 }
@@ -173,18 +168,17 @@ div h3 {
   flex-wrap: wrap;
   text-align: center;
 }
-.mb-3{
+.mb-3 {
   margin: 25px;
   color: white;
   text-align: center;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   font-size: 20px;
-  
 }
-.btn-success{
+.btn-success {
   margin-left: 50%;
 }
-.nosIndex{
+.nosIndex {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -192,22 +186,20 @@ div h3 {
 
   background-color: blue;
 }
-.sobreNos{
-  
+.sobreNos {
   color: white;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   text-align: center;
   font-size: 50px;
   text-decoration: overline;
   margin-bottom: 10px;
 }
-.parrNos{
+.parrNos {
   color: white;
   font-size: 20px;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   text-align: center;
 }
-
 
 /*----------------------------footer----------------------------*/
 .listaTipo {
@@ -223,42 +215,42 @@ div h3 {
   height: 25rem;
   background-color: blue;
 }
-.gameJ{
+.gameJ {
   margin: 20px;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: aqua;
-
 }
-.accordion{
+.accordion {
   background-color: blue;
 }
-.titlH{
-  font-family: 'Fuzzy Bubbles', cursive;
+.titlH {
+  font-family: "Fuzzy Bubbles", cursive;
   text-align: center;
   color: white;
-  
 }
-.accordion-body{
-  background-color: blue;  
+.accordion-body {
+  background-color: blue;
   font-size: 20px;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: white;
 }
-.accordion-button{
+.accordion-button {
   background-color: deeppink;
-font-size: 25px;
+  font-size: 25px;
 }
 
 /*----------------------------contacto----------------------------*/
-.maCont{
+.maCont {
   background-color: blue;
-height: 50rem;
-  
+  height: 40rem;
 }
-
-.row{
-  
-
+.titContacto {
+  font-family: "Fuzzy Bubbles", cursive;
   color: white;
-  
+  text-align: center;
+  text-decoration: underline;
+}
+.form-label {
+  color: white;
+  font-family: "Fuzzy Bubbles", cursive;
 }
